@@ -37,4 +37,11 @@ public class AgendaTelefonica
         return agendatlf.get(name);
     }
 
+    /**
+     * Print all keys
+     */
+    public void printAllNames()
+    {
+       System.out.println(agendatlf.keySet());
+    }
 }
